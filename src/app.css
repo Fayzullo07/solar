@@ -20,8 +20,8 @@
 
 :root {
   --md-sys-color-primary: #426AE4;
-  --md-sys-color-on-primary: #426AE4;
-  --md-sys-color-primary-container: #426AE4;
+  --md-sys-color-on-primary: var(--md-sys-color-on-primary-light);
+  --md-sys-color-primary-container: var(--md-sys-color-primary-container-light);
   --md-sys-color-on-primary-container: var(--md-sys-color-on-primary-container-light);
   --md-sys-color-secondary: #426AE4;
   --md-sys-color-on-secondary: var(--md-sys-color-on-secondary-light);
